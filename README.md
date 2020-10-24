@@ -1,7 +1,7 @@
 # MVVMTemplate
 ## Project Highlights
 
-### MVVM architecture   
+### MVVM Architecture   
 MVVM (Model-View-ViewModel) is derived from MVC(Model-View-Controller). It is introduced to solve existing problems of Cocoa's MVC architecture in iOS world. One of its feature is to make a better separation of concerns so that it is easier to maintain and extend.   
 Key Features: Distribution, Testability, Reusability
 * Model: It is similar to model layer in MVC (contains data business logic)
