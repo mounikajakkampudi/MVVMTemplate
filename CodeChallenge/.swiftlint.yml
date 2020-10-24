@@ -1,0 +1,15 @@
+
+# By default, SwiftLint uses a set of sensible default rules you can adjust:
+included: # paths to include during linting. `--path` is ignored if present.
+  - ./CodeChallenge
+excluded: # paths to ignore during linting. Takes precedence over `included`.
+  - Pods
+  # Exclude files with a wildcard
+analyzer_rules: # Rules run by `swiftlint analyze` (experimental)
+  - explicit_self
+
+# configurable rules can be customized from this configuration file
+line_length: 200
+
+reporter: "xcode"
+
